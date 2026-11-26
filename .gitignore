@@ -53348,33 +53348,3 @@ Example Prompt Sent to Gemini:
 "You are an expert environmental data scientist. Based on the following historical data for the past 5 years: [Data: 2020=400ppm, 2021=412ppm, 2022=418ppm...]. Predict the CO₂ levels for the next 5 years. Provide the output strictly in the following JSON format: {"year": 2025, "value": 425, "confidence": "High", "reasoning": "..."}."
 
 This ensures the AI returns structured data that the frontend can easily plot on a chart, rather than just conversational text.
-
-✨ Key Features
-🌐 Interactive Earth Globe — Real-time visualization of planetary data on a 3D rotating globe.
-
-📊 5 Domain Dashboards — Dedicated analytical views for Environment, Economy, Industry, Transport, and Society.
-
-🤖 Gemini AI Predictions — Ask natural language questions and get AI-generated forecasts with reasoning.
-
-📈 Rich Data Visualization — Line, Bar, Pie, Area, and Radar charts using Recharts.
-
-🕓 Prediction History — Every forecast is stored securely and is easily revisitable.
-
-🎨 Premium UI — Dark space theme with glassmorphism, smooth animations (Framer Motion), and fully responsive layout.
-
-🔐 JWT Authentication — Secure Login and Register system with hashed passwords.
-
-📚 Auto API Docs — Swagger UI available at /docs for easy testing.
-
-🛠️ Tech Stack
-Layer	Technology
-Frontend	React 18, Vite, Tailwind CSS, Recharts, Framer Motion, react-globe.gl, Axios, React Router
-Backend	Python 3.10+, FastAPI, SQLAlchemy, Pydantic, Passlib (bcrypt), Python-JOSE
-Database	SQLite (Lightweight, zero-config, file-based DB for practice)
-AI Engine	Google Gemini API (gemini-1.5-flash)
-Authentication	JWT (JSON Web Tokens) + bcrypt
-📁 Folder Structure
-text
-terra-twin-ai/
-├── backend/                  # FastAPI Backend
-│   ├── app/
